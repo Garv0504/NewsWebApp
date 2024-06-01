@@ -43,10 +43,10 @@ render() {
               <a className="nav-link" href="/about">About</a>
             </li>
           </ul>
-        </div>
-        <div className={`form-check form-switch text-${this.state.mode==='dark'?'light':'dark'}`}>
+          <div className={`form-check form-switch text-${this.state.mode==='dark'?'light':'dark'}`}>
           <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={this.handleMode} />
           <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Dark Mode</label>
+          </div>
         </div>
       </div>
     </nav>
